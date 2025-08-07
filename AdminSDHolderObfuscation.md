@@ -71,7 +71,7 @@ Here are a few objects that as a rule need to be members:
 
 If you suspect that certain objects may need read access, you should add those too.
 
-Next, we want to initialise auditing for all objects that currently have their `adminCount` set to 1. This is not something enabled by default and must be configured via group policy and the access control list. Please follow the [audit](https://github.com/ActualTortoise/AD-Forest2Jungle/blob/main/AuditingInActiveDirectory.md) guide in the repository before continuing.
+Next, we want to initialise auditing for all objects that currently have their `adminCount` set to 1. This is not something enabled by default and must be configured via group policy and the access control list. Please follow the [audit](https://github.com/ActualTortoise/AD-Forest2Jungle/blob/main/AuditingInActiveDirectory.md) guide (phase 2) in the repository before continuing.
 
 This should be possible to do without centralised logging. Although, many of my implementations have been with some form of centralised logging. In the event that your organisation has no form of centralised logging, you should strongly consider implementing this. Otherwise for this next step you will have to filter through your domain controllers event logs using PowerShell.
 
