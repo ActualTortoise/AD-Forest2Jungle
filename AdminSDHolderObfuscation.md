@@ -107,5 +107,3 @@ If you have followed all the steps outlined above, you should be ready to move i
 Simply go into the access control list of AdminSDHolder and remove read rights from the **"Everyone"** object.
 
 Wait for replication and try running a PowerShell cmdlet to enumerate for example Domain Admins with a non-privileged account. You should be told it doesn't exist!
-
-**Congratulations!** You have just made your AD environment considerably more difficult to abuse.
