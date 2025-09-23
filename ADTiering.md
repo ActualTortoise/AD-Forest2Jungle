@@ -7,7 +7,7 @@ https://itm8.com/articles/fundamentals-ad-tiering
 
 Tiering in Active Directory is one of the most effective security measures to increase your overall posture.
 
-In short, it consists of placing all of your Active Directory objects into a designated tier. The aim is to completely segregate the different tiers from each other, making privilege escalation much more difficult.
+In short, it consists of placing all of your Active Directory objects into a designated tier. The aim is to completely isolate the different tiers from each other, making privilege escalation much more difficult.
 
 The standard is to divide an AD environment into 3 different tiers:
 
@@ -37,7 +37,7 @@ While this is practical, in my implementations I have **not allowed for downward
 
 Therefore, if an attacker compromises a machine in tier 2 or tier 1 and lays a trap, trying to provoke a log on from a tier 0 account... suddenly they own the domain.
 
-Imagine an attacker has compromised a print server and turned off a vital print service. You log in with your tier 0 administrator account to resolve the issue and that is it. It is much better to completely segregate the tiers from each other.
+Imagine an attacker has compromised a print server and turned off a vital print service. You log in with your tier 0 administrator account to resolve the issue and that is it. It is much better to completely isolate the tiers from each other.
 
 ---
 
